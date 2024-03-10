@@ -1,0 +1,159 @@
+	
+	.body{
+		display:grid;
+		background-color: #032A56;
+		padding: 10px;
+		min-height: 95vh;
+		min-width: 95vw;
+		width: auto;
+		height: auto;
+	}
+	a {
+		color: inherit; /* Inherit color from parent */
+		text-decoration: none; /* Remove underline */
+	}
+	header {
+		display: flex;
+		gap: 4vw;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		padding-right: 2vw;
+		color: #032A56;
+		justify-content: right;
+		font-size: 1.5vw; /*18px*/
+		font-family: Arial, sans-serif;
+		background-color: #A2DED8;
+	}
+
+	main {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		background-color: #A2DED8;
+		min-height: 90%;
+		min-width: 45%;
+		width: auto;
+		height: auto; 
+	}
+
+	titlePage {
+		display: block;
+		font-weight: bold;
+		font-size: 4vw;/*60px;*/
+		font-family: Arial, sans-serif;
+		color: white;
+		text-align: center;
+	}
+	.centerContent{
+		padding-top: 20px;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	s0 {
+		margin: 20px;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1; 
+	}
+	@keyframes animateMainTEXT{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+
+	.titleFlex{
+		display: flex;
+		padding-top: 7vh;
+		justify-content:left;
+		text-align:center;
+		
+		font-size: 1.5vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		
+		animation-name: animateServices;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		
+		background-color: #A2DED8;
+	}
+	
+	.imageFlex{
+		display: flex;
+		gap: 3vw;
+		padding-top: 7vh;
+		justify-content:center;
+		
+		animation-name: animateServices;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1; 
+		
+		background-color: #A2DED8;
+	}
+	
+	s1 {
+		padding-left:1.5vw;
+	}
+	s2 {
+		padding-left:4vw;
+	}
+	s3 {
+		padding-left:8.5vw;
+	}
+	s4 {
+		padding-left:5vw;
+	}
+	s5 {
+		padding-left:3vw;
+	}
+	s6 {
+		padding-left:1.5vw;
+	}
+	
+	
+	.cleanAnimation {
+		width:13vw;
+		height:auto;
+		
+	}
+
+	@keyframes animateServices{
+		0% {
+			transform: translateY(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	
+	footer {
+		justify-content: left;
+		text-align: left;
+		color: #032A56;
+		padding-bottom: 3vh;
+		padding-left: 3vw;
+		background-color: #A2DED8;
+		font-size: 1vw;
+		font-family: Arial, sans-serif;
+	}

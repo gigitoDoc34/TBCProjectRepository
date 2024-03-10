@@ -1,0 +1,148 @@
+
+	a {
+		color: inherit; /* Inherit color from parent */
+		text-decoration: none; /* Remove underline */
+	}
+	.body {
+		display:grid;
+		background-color: #032A56;
+		padding: 10px;
+		min-height: 95vh;
+		min-width: 95vw;
+		width: auto;
+		height: auto;
+	}
+
+	header {
+		display: flex;
+		gap: 4vw;
+		padding-bottom: 1vh;
+		padding-right: 2vw;
+		height: 10%;
+		margin: 0.5vw 0;
+		background-color: #A2DED8;
+		color: #032A56;
+		justify-content: right;
+		font-size: 1.5vw; /*18px*/
+		font-family: Arial, sans-serif;
+	}
+
+	main {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		background-color: #A2DED8;
+		min-height: 90%;
+		min-width: 45%;
+		width: auto;
+		height: auto;
+	}
+
+	titlePage {
+		display: block;
+		font-weight: bold;
+		font-size: 4vw;/*60px;*/
+		font-family: Arial, sans-serif;
+		color: white;
+		text-align: center;
+	}
+
+
+	
+	positionFrameTitle {
+		position : absolute;
+		top: 75px;
+		left: 250px;
+	}
+	.centerContent{
+		padding-top: 20px;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	s0 {
+		/*font-weight: bold;*/
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		padding-top: 10vh;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1; 
+	}
+	@keyframes animateMainTEXT{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+
+	.infoFlex {
+		display: flex;
+		padding-top: 7vh;
+		padding-left:5vw;
+		justify-content:center;
+		text-align:center;
+		gap:22vw;
+		
+		font-size: 1.5vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+	
+		animation-name: animateServices;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1; 
+	}
+	.resizeImg{
+		height:auto;
+		width:15vw;
+	}
+	.iconFlex {
+		display: flex;
+		padding-top: 7vh;
+		text-align:center;
+		justify-content:center;
+		gap:28vw;
+		animation-name: animateContacts;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1; 
+	}
+	
+	@keyframes animateContacts{
+		0% {
+			transform: translateY(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	footer {
+		height: 5%;
+		justify-content: left;
+		text-align: left;
+		background-color: #A2DED8;
+		color: #032A56;
+		padding-bottom: 1vh;
+		padding-left: 1vw;
+		font-size: 1vw;/*0.8vw; 16px*/
+		font-family: Arial, sans-serif;
+		color: #032A56;
+	}

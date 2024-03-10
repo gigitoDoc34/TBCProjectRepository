@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3027e6e-848d-40f3-aaba-97eb9cf17de5" name="Changes" comment="" />
+    <list default="true" id="e3027e6e-848d-40f3-aaba-97eb9cf17de5" name="Changes" comment="Version 1: TBC site : Index, Services, AboutUs, ContactUs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +16,25 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Administrator/Documents/TBCProjectPackage",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Version 1: TBC site : Index, Services, AboutUs, ContactUs">
+      <option name="closed" value="true" />
+      <created>1710105229995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710105229995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1: TBC site : Index, Services, AboutUs, ContactUs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1: TBC site : Index, Services, AboutUs, ContactUs" />
   </component>
 </project>

@@ -425,7 +425,7 @@
 		justify-items: center;
 		align-items: center;
 		height:auto;
-		width:15vw;
+		width:23vw;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -435,7 +435,7 @@
 
 	.flexIcon{
 		display: flex;
-		gap: 5vw;
+		gap: 1vw;
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;

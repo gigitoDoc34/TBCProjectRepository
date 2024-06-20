@@ -110,7 +110,7 @@
 		display:flex;
 		justify-items: center;
 		height:auto;
-		width:8vw;
+		width:20vw;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -121,7 +121,7 @@
 
 	.flexIcon{
 		display: flex;
-		gap: 13vw;
+		gap: 5vw;
 		padding-top: 8vh;
 		padding-bottom: 10vh;
 		justify-content: center;
@@ -278,7 +278,7 @@
 	.positionRefIMG{
 		display:flex;
 		height:auto;
-		width:8vh;
+		width:20vh;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;

@@ -197,8 +197,6 @@
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
 	}
 
 	.flexIcon{
@@ -207,8 +205,6 @@
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;
-		position:relative;
-		z-index: 4;
 	}
 
 	.titleRef{
@@ -223,8 +219,6 @@
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
 	}
 	footer {
 		padding-left:2vw;
@@ -235,14 +229,13 @@
 		font-size: 1vw;
 		font-family: Arial, sans-serif;
 		background-color: #A2DED8;
-		z-index: 3;
 	}
 }
 
 /************************************************************************************/
 
 @media screen and (orientation: portrait) {
-	.body{
+	.body {
 		display:grid;
 		background-color: #032A56;
 		padding: 10px;
@@ -294,6 +287,7 @@
 		justify-content:center;
 		align-items:center;
 		text-align:center;
+
 	}
 	s0 {
 		font-size: 2vw;
@@ -335,32 +329,32 @@
 		background-color: #A2DED8;
 	}
 	.cleanAnimationLL{
-		width:auto;
-		height:30vh;
+		width:80vw;
+		height:auto;
 		animation-name: animateServicesLL;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
 	}
 	.cleanAnimationLR{
-		width:auto;
-		height:30vh;
+		width:80vw;
+		height:auto;
 		animation-name: animateServicesLR;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
 	}
 	.cleanAnimationRL{
-		width:auto;
-		height:30vh;
+		width:80vw;
+		height:auto;
 		animation-name: animateServicesRL;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
 	}
 	.cleanAnimationRR{
-		width:auto;
-		height:30vh;
+		width:80vw;
+		height: auto;
 		animation-name: animateServicesRR;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -431,24 +425,22 @@
 		justify-items: center;
 		align-items: center;
 		height:auto;
-		width:8vh;
+		width:15vw;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
+
 	}
 
 	.flexIcon{
 		display: flex;
-		gap: 8vh;
+		gap: 5vw;
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;
 		align-items: center;
-		position:relative;
-		z-index: 4;
+
 	}
 
 	.titleRef{
@@ -456,7 +448,7 @@
 		justify-items: left;
 		align-items: center;
 		font-size: 3vw;
-		padding-left: 0.5vh;
+		padding-left: 5vw;
 		color: #032A56;
 		font-family: 'Brush Script MT', cursive;
 		font-weight: bold;
@@ -465,9 +457,10 @@
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
+
 	}
+
+
 	footer {
 		padding-left:2vw;
 		justify-content: left;
@@ -477,6 +470,5 @@
 		font-size: 1vw;
 		font-family: Arial, sans-serif;
 		background-color: #A2DED8;
-		z-index: 3;
 	}
 }

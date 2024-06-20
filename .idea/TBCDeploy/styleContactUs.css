@@ -334,8 +334,6 @@
 		text-align: center;
 	}
 
-
-
 	positionFrameTitle {
 		position : absolute;
 		top: 75px;
@@ -474,7 +472,7 @@
 
 	.resizeImg1{
 		width:auto;
-		height:10vh;
+		height:20vw;
 		animation-name: animateContacts1;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -482,7 +480,7 @@
 	}
 	.resizeImg2{
 		width:auto;
-		height:10vh;
+		height:20vw;
 		animation-name: animateContacts2;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -524,24 +522,22 @@
 		justify-items: center;
 		align-items: center;
 		height:auto;
-		width:8vh;
+		width:15vw;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
+
 	}
 
 	.flexIcon{
 		display: flex;
-		gap: 8vh;
+		gap: 5vw;
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;
 		align-items: center;
-		position:relative;
-		z-index: 4;
+
 	}
 
 	.titleRef{
@@ -549,7 +545,7 @@
 		justify-items: left;
 		align-items: center;
 		font-size: 3vw;
-		padding-left: 0.5vh;
+		padding-left: 5vw;
 		color: #032A56;
 		font-family: 'Brush Script MT', cursive;
 		font-weight: bold;
@@ -558,8 +554,7 @@
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		position:relative;
-		z-index: 4;
+
 	}
 
 	footer {
@@ -571,6 +566,6 @@
 		font-size: 1vw;
 		font-family: Arial, sans-serif;
 		background-color: #A2DED8;
-		z-index: 3;
+
 	}
 }

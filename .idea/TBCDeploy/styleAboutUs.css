@@ -128,8 +128,6 @@ s0 {
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    position:relative;
-    z-index: 4;
 }
 
 .flexIcon{
@@ -138,8 +136,6 @@ s0 {
     padding-top: 5vh;
     padding-bottom: 10vh;
     justify-content: center;
-    position:relative;
-    z-index: 4;
 }
 
 .titleRef{
@@ -154,8 +150,6 @@ s0 {
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    position:relative;
-    z-index: 4;
 }
 
 footer {
@@ -167,7 +161,6 @@ footer {
     font-size: 1vw;
     font-family: Arial, sans-serif;
     background-color: #A2DED8;
-    z-index: 3;
 }
 /*@media screen and (orientation: landscape) {
 
@@ -178,24 +171,22 @@ footer {
         justify-items: center;
         align-items: center;
         height:auto;
-        width:8vh;
+        width:15vw;
         animation-name: animateLink;
         animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: 1;
-        position:relative;
-        z-index: 4;
+
     }
 
     .flexIcon{
         display: flex;
-        gap: 8vh;
+        gap: 5vw;
         padding-top: 5vh;
         padding-bottom: 10vh;
         justify-content: center;
         align-items: center;
-        position:relative;
-        z-index: 4;
+
     }
 
     .titleRef{
@@ -203,7 +194,7 @@ footer {
         justify-items: left;
         align-items: center;
         font-size: 3vw;
-        padding-left: 1vh;
+        padding-left: 5vw;
         color: #032A56;
         font-family: 'Brush Script MT', cursive;
         font-weight: bold;
@@ -212,8 +203,7 @@ footer {
         animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: 1;
-        position:relative;
-        z-index: 4;
+
     }
 }
 

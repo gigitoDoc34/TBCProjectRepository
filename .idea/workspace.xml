@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3027e6e-848d-40f3-aaba-97eb9cf17de5" name="Changes" comment="Version 2: TBC site - Landscape &amp; Portrait format">
-      <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/ContactUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/Services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/index.html" afterDir="false" />
+    <list default="true" id="e3027e6e-848d-40f3-aaba-97eb9cf17de5" name="Changes" comment="Version 3: TBC site - Landscape &amp; Portrait format">
       <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/styleAboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/styleAboutUs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/styleContactUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/styleContactUs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/styleServices.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/styleServices.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TBCDeploy/styleTBC.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TBCDeploy/styleTBC.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +100,7 @@
       <workItem from="1718555705763" duration="71000" />
       <workItem from="1718560450069" duration="9005000" />
       <workItem from="1718754730434" duration="16841000" />
-      <workItem from="1718810054257" duration="24789000" />
+      <workItem from="1718810054257" duration="29607000" />
     </task>
     <task id="LOCAL-00003" summary="Version 2: TBC site - Landscape &amp; Portrait format">
       <option name="closed" value="true" />
@@ -115,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718844511839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 3: TBC site - Landscape &amp; Portrait format">
+      <option name="closed" value="true" />
+      <created>1718872604849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718872604849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1: TBC site : Index, Services, AboutUs, ContactUs" />
     <MESSAGE value="Version 2: TBC site - Landscape &amp; Portrait format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2: TBC site - Landscape &amp; Portrait format" />
+    <MESSAGE value="Version 3: TBC site - Landscape &amp; Portrait format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 3: TBC site - Landscape &amp; Portrait format" />
   </component>
 </project>

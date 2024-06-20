@@ -1,7 +1,7 @@
-
+@media screen and (orientation: landscape) {
 	a {
-		color: inherit; /* Inherit color from parent */
-		text-decoration: none; /* Remove underline */
+		color: inherit;
+		text-decoration: none;
 	}
 	.body {
 		display:grid;
@@ -47,17 +47,313 @@
 	}
 
 
-	
+
 	positionFrameTitle {
 		position : absolute;
 		top: 75px;
 		left: 250px;
 	}
 	.centerContent{
+		display : grid;
 		padding-top: 20px;
 		justify-content:center;
 		align-items:center;
 		text-align:center;
+	}
+	.blockContact{
+		display: grid;
+		justify-items: center;
+		gap:1vh;
+	}
+	.contactsFlex{
+		display: flex;
+		justify-content: center;
+		gap:4vw;
+	}
+	s0 {
+		/*font-weight: bold;*/
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		padding-top: 5vh;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s1 {
+		font-weight: bold;
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s2 {
+		/*font-weight: bold;*/
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s3 {
+		font-weight: bold;
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s4 {
+		/*font-weight: bold;*/
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	@keyframes animateMainTEXT{
+		0% {
+			transform: translateY(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	.titleInfo{
+		display: flex;
+		padding-top: 7vh;
+		padding-bottom: 1vh;
+		padding-left:7vw;
+		padding-right: 7vw;
+		justify-content:center;
+		text-align:center;
+		gap:36vw;
+
+		font-weight: bold;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+
+		animation-name: animateContacts;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.infoFlex{
+		display: flex;
+		padding-bottom: 7vh;
+		padding-left: 10vw;
+		justify-content:center;
+		text-align:center;
+		gap:20vw;
+
+		font-weight: bold;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+
+		animation-name: animateContacts;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+
+	.resizeImg1{
+		width:auto;
+		height:15vh;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.resizeImg2{
+		width:auto;
+		height:15vh;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+
+
+	@keyframes animateContacts1{
+		0% {
+			transform: translateY(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+
+	@keyframes animateContacts2{
+		0% {
+			transform: translateY(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	.positionRefIMG{
+		display:none;
+		justify-items: center;
+		padding-left: 1.7vw;
+		height:auto;
+		width:6.5vw;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+
+	.flexIcon{
+		display: flex;
+		gap: 15vw;
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		justify-content: center;
+		position:relative;
+		z-index: 4;
+	}
+
+	.titleRef{
+		display: none;
+		justify-items: left;
+		font-size: 3vw;
+		color: #032A56;
+		font-family: 'Brush Script MT', cursive;
+		font-weight: bold;
+		text-decoration: none;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+	footer {
+		padding-left:2vw;
+		justify-content: left;
+		align-items: flex-end;
+		text-align: left;
+		color: #032A56;
+		font-size: 1vw;
+		font-family: Arial, sans-serif;
+		background-color: #A2DED8;
+		z-index: 3;
+	}
+}
+/***************************************************************************************************/
+
+@media screen and (orientation: portrait) {
+	a {
+		color: inherit; /* Inherit color from parent */
+		text-decoration: none; /* Remove underline */
+	}
+	.body {
+		display:grid;
+		background-color: #032A56;
+		padding: 10px;
+		min-height: 95vh;
+		min-width: 95vw;
+		width: auto;
+		height: auto;
+	}
+
+	header {
+		display: none;
+		gap: 4vw;
+		padding-bottom: 1vh;
+		padding-right: 2vw;
+		height: 10%;
+		margin: 0.5vw 0;
+		background-color: #A2DED8;
+		color: #032A56;
+		justify-content: right;
+		font-size: 1.5vw; /*18px*/
+		font-family: Arial, sans-serif;
+	}
+
+	main {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		background-color: #A2DED8;
+		min-height: 90%;
+		min-width: 45%;
+		width: auto;
+		height: auto;
+	}
+
+	titlePage {
+		display: block;
+		font-weight: bold;
+		font-size: 4vw;/*60px;*/
+		font-family: Arial, sans-serif;
+		color: white;
+		text-align: center;
+	}
+
+
+
+	positionFrameTitle {
+		position : absolute;
+		top: 75px;
+		left: 250px;
+	}
+	.centerContent{
+		display: grid;
+		padding-top: 5vh;
+		gap: 5vh;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	.blockContact{
+		display: grid;
+		justify-items: center;
+		gap:1vh;
+
 	}
 	s0 {
 		/*font-weight: bold;*/
@@ -66,13 +362,135 @@
 		color: #032A56;
 		text-align: center;
 		justify-content: center;
-		padding-top: 10vh;
+		padding-top: 5vh;
+		padding-left: 2vw;
+		padding-right: 2vw;
 		animation-name: animateMainTEXT;
 		animation-duration: 1s;
 		animation-timing-function: linear;
-		animation-iteration-count: 1; 
+		animation-iteration-count: 1;
+	}
+	s1 {
+		font-weight: bold;
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s2 {
+		/*font-weight: bold;*/
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s3 {
+		font-weight: bold;
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		padding-top: 5vh;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s4 {
+		/*font-weight: bold;*/
+		font-size: 3vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		text-align: center;
+		justify-content: center;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
 	}
 	@keyframes animateMainTEXT{
+		0% {
+			transform: translateY(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateY(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	.titleInfo{
+		display: flex;
+		padding-top: 7vh;
+		padding-bottom: 1vh;
+		padding-left:7vw;
+		padding-right: 7vw;
+		justify-content:center;
+		text-align:center;
+		gap:36vw;
+
+		font-weight: bold;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+
+		animation-name: animateContacts;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.infoFlex{
+		display: flex;
+		padding-bottom: 7vh;
+		padding-left: 10vw;
+		justify-content:center;
+		text-align:center;
+		gap:20vw;
+
+		font-weight: bold;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+
+		animation-name: animateContacts;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+
+	.resizeImg1{
+		width:auto;
+		height:15vh;
+		animation-name: animateContacts1;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.resizeImg2{
+		width:auto;
+		height:15vh;
+		animation-name: animateContacts2;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+
+
+	@keyframes animateContacts1{
 		0% {
 			transform: translateX(-100px);
 			opacity: 0;
@@ -87,62 +505,69 @@
 		}
 	}
 
-	.infoFlex {
-		display: flex;
-		padding-top: 7vh;
-		padding-left:5vw;
-		justify-content:center;
-		text-align:center;
-		gap:22vw;
-		
-		font-size: 1.5vw;
-		font-family: Georgia, serif;
-		color: #032A56;
-	
-		animation-name: animateServices;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-iteration-count: 1; 
-	}
-	.resizeImg{
-		height:auto;
-		width:15vw;
-	}
-	.iconFlex {
-		display: flex;
-		padding-top: 7vh;
-		text-align:center;
-		justify-content:center;
-		gap:28vw;
-		animation-name: animateContacts;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-iteration-count: 1; 
-	}
-	
-	@keyframes animateContacts{
+	@keyframes animateContacts2{
 		0% {
-			transform: translateY(100px);
+			transform: translateX(100px);
 			opacity: 0;
 		}
 		50% {
-			transform: translateY(50px);
+			transform: translateX(50px);
 			opacity: 0.5;
 		}
 		100% {
-			transform: translateY(0px);
+			transform: translateX(0px);
 			opacity: 1;
 		}
 	}
-	footer {
-		height: 5%;
-		justify-content: left;
-		text-align: left;
-		background-color: #A2DED8;
-		color: #032A56;
-		padding-bottom: 1vh;
-		padding-left: 1vw;
-		font-size: 1vw;/*0.8vw; 16px*/
-		font-family: Arial, sans-serif;
-		color: #032A56;
+	.positionRefIMG{
+		display:flex;
+		justify-items: center;
+		padding-left: 1.7vw;
+		height:auto;
+		width:6.5vw;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
 	}
+
+	.flexIcon{
+		display: flex;
+		gap: 15vw;
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		justify-content: center;
+		position:relative;
+		z-index: 4;
+	}
+
+	.titleRef{
+		display: flex;
+		justify-items: left;
+		font-size: 3vw;
+		color: #032A56;
+		font-family: 'Brush Script MT', cursive;
+		font-weight: bold;
+		text-decoration: none;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+
+	footer {
+		padding-left:2vw;
+		justify-content: left;
+		align-items: flex-end;
+		text-align: left;
+		color: #032A56;
+		font-size: 1vw;
+		font-family: Arial, sans-serif;
+		background-color: #A2DED8;
+		z-index: 3;
+	}
+}

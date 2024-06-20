@@ -1,4 +1,4 @@
-	
+@media screen and (orientation: landscape) {
 	.body{
 		display:grid;
 		background-color: #032A56;
@@ -15,14 +15,15 @@
 	header {
 		display: flex;
 		gap: 4vw;
-		padding-top: 1vh;
 		padding-bottom: 1vh;
 		padding-right: 2vw;
+		height: 10%;
+		margin: 0.5vw 0;
+		background-color: #A2DED8;
 		color: #032A56;
 		justify-content: right;
 		font-size: 1.5vw; /*18px*/
 		font-family: Arial, sans-serif;
-		background-color: #A2DED8;
 	}
 
 	main {
@@ -32,7 +33,7 @@
 		min-height: 90%;
 		min-width: 45%;
 		width: auto;
-		height: auto; 
+		height: auto;
 	}
 
 	titlePage {
@@ -45,19 +46,30 @@
 	}
 	.centerContent{
 		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 		justify-content:center;
 		align-items:center;
 		text-align:center;
 	}
 	s0 {
-		margin: 20px;
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		padding-top: 2vh;
+		color: #A2DED8;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s1 {
 		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		animation-name: animateMainTEXT;
 		animation-duration: 1s;
 		animation-timing-function: linear;
-		animation-iteration-count: 1; 
+		animation-iteration-count: 1;
 	}
 	@keyframes animateMainTEXT{
 		0% {
@@ -73,87 +85,395 @@
 			opacity: 1;
 		}
 	}
+	.gridPortrait{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 5vw;
+		padding-top: 2.5vh;
+		padding-bottom: 2.5vh;
+		justify-content:center;
+		background-color: #A2DED8;
+	}
 
-	.titleFlex{
-		display: flex;
-		padding-top: 7vh;
-		justify-content:left;
-		text-align:center;
-		
-		font-size: 1.5vw;
-		font-family: Georgia, serif;
-		color: #032A56;
-		
-		animation-name: animateServices;
+	.cleanAnimationLL{
+		width:25vw;
+		height:auto;
+		animation-name: animateServicesLL;
 		animation-duration: 1s;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
-		
-		background-color: #A2DED8;
 	}
-	
-	.imageFlex{
-		display: flex;
-		gap: 3vw;
-		padding-top: 7vh;
-		justify-content:center;
-		
-		animation-name: animateServices;
+	.cleanAnimationLR{
+		width:25vw;
+		height:auto;
+		animation-name: animateServicesLR;
 		animation-duration: 1s;
 		animation-timing-function: linear;
-		animation-iteration-count: 1; 
-		
-		background-color: #A2DED8;
+		animation-iteration-count: 1;
 	}
-	
-	s1 {
-		padding-left:1.5vw;
-	}
-	s2 {
-		padding-left:4vw;
-	}
-	s3 {
-		padding-left:8.5vw;
-	}
-	s4 {
-		padding-left:5vw;
-	}
-	s5 {
-		padding-left:3vw;
-	}
-	s6 {
-		padding-left:1.5vw;
-	}
-	
-	
-	.cleanAnimation {
-		width:13vw;
+	.cleanAnimationRL{
+		width:25vw;
 		height:auto;
-		
+		animation-name: animateServicesRL;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
 	}
-
-	@keyframes animateServices{
+	.cleanAnimationRR{
+		width:25vw;
+		height:auto;
+		animation-name: animateServicesRR;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	/*LEFT - LEFT*/
+	@keyframes animateServicesLL{
 		0% {
-			transform: translateY(100px);
+			transform: translateX(-100px);
 			opacity: 0;
 		}
 		50% {
-			transform: translateY(50px);
+			transform: translateX(-50px);
 			opacity: 0.5;
 		}
 		100% {
-			transform: translateY(0px);
+			transform: translateX(0px);
 			opacity: 1;
 		}
 	}
-	
+	/*RIGHT - RIGHT*/
+	@keyframes animateServicesRR{
+		0% {
+			transform: translateX(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	/*LEFT - RIGHT*/
+	@keyframes animateServicesLR{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	/*RIGHT - LEFT*/
+	@keyframes animateServicesRL{
+		0% {
+			transform: translateX(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	.positionRefIMG{
+		display:none;
+		justify-items: center;
+		padding-left: 1.7vw;
+		height:auto;
+		width:6.5vw;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+
+	.flexIcon{
+		display: flex;
+		gap: 15vw;
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		justify-content: center;
+		position:relative;
+		z-index: 4;
+	}
+
+	.titleRef{
+		display: none;
+		justify-items: left;
+		font-size: 3vw;
+		color: #032A56;
+		font-family: 'Brush Script MT', cursive;
+		font-weight: bold;
+		text-decoration: none;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
 	footer {
+		padding-left:2vw;
 		justify-content: left;
+		align-items: flex-end;
 		text-align: left;
 		color: #032A56;
-		padding-bottom: 3vh;
-		padding-left: 3vw;
-		background-color: #A2DED8;
 		font-size: 1vw;
 		font-family: Arial, sans-serif;
+		background-color: #A2DED8;
+		z-index: 3;
 	}
+}
+
+/************************************************************************************/
+
+@media screen and (orientation: portrait) {
+	.body{
+		display:grid;
+		background-color: #032A56;
+		padding: 10px;
+		min-height: 95vh;
+		min-width: 95vw;
+		width: auto;
+		height: auto;
+	}
+	a {
+		color: inherit; /* Inherit color from parent */
+		text-decoration: none; /* Remove underline */
+	}
+	header {
+		display: none;
+		gap: 4vw;
+		padding-bottom: 1vh;
+		padding-right: 2vw;
+		height: 10%;
+		margin: 0.5vw 0;
+		background-color: #A2DED8;
+		color: #032A56;
+		justify-content: right;
+		font-size: 1.5vw; /*18px*/
+		font-family: Arial, sans-serif;
+	}
+
+	main {
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		background-color: #A2DED8;
+		min-height: 90%;
+		min-width: 45%;
+		width: auto;
+		height: auto;
+	}
+
+	titlePage {
+		display: block;
+		font-weight: bold;
+		font-size: 4vw;/*60px;*/
+		font-family: Arial, sans-serif;
+		color: white;
+		text-align: center;
+	}
+	.centerContent{
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	s0 {
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #032A56;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	s1 {
+		font-size: 2vw;
+		font-family: Georgia, serif;
+		color: #A2DED8;
+		animation-name: animateMainTEXT;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	@keyframes animateMainTEXT{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	.gridPortrait{
+		display: grid;
+		gap: 2.5vw;
+		padding-top: 2.5vh;
+		justify-content:center;
+		background-color: #A2DED8;
+	}
+	.cleanAnimationLL{
+		width:auto;
+		height:30vh;
+		animation-name: animateServicesLL;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.cleanAnimationLR{
+		width:auto;
+		height:30vh;
+		animation-name: animateServicesLR;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.cleanAnimationRL{
+		width:auto;
+		height:30vh;
+		animation-name: animateServicesRL;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	.cleanAnimationRR{
+		width:auto;
+		height:30vh;
+		animation-name: animateServicesRR;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+	}
+	/*LEFT - LEFT*/
+	@keyframes animateServicesLL{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	/*RIGHT - RIGHT*/
+	@keyframes animateServicesRR{
+		0% {
+			transform: translateX(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	/*LEFT - RIGHT*/
+	@keyframes animateServicesLR{
+		0% {
+			transform: translateX(100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	/*RIGHT - LEFT*/
+	@keyframes animateServicesRL{
+		0% {
+			transform: translateX(-100px);
+			opacity: 0;
+		}
+		50% {
+			transform: translateX(-50px);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+	.positionRefIMG{
+		display:flex;
+		justify-items: center;
+		padding-left: 1.7vw;
+		height:auto;
+		width:6.5vw;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+
+	.flexIcon{
+		display: flex;
+		gap: 15vw;
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		justify-content: center;
+		position:relative;
+		z-index: 4;
+	}
+
+	.titleRef{
+		display: flex;
+		justify-items: left;
+		font-size: 3vw;
+		color: #032A56;
+		font-family: 'Brush Script MT', cursive;
+		font-weight: bold;
+		text-decoration: none;
+		animation-name: animateLink;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		position:relative;
+		z-index: 4;
+	}
+	footer {
+		padding-left:2vw;
+		justify-content: left;
+		align-items: flex-end;
+		text-align: left;
+		color: #032A56;
+		font-size: 1vw;
+		font-family: Arial, sans-serif;
+		background-color: #A2DED8;
+		z-index: 3;
+	}
+}

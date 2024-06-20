@@ -1,121 +1,215 @@
+a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
+.body {
+    display:grid;
+    background-color: #032A56;
+    justify-content:center;
+    padding: 10px;
+    min-height: 95vh;
+    min-width: 95vw;
+    width: auto;
+    height: auto;
+}
+main {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #A2DED8;
+    min-height: 90%;
+    min-width: 45%;
+    width: auto;
+    height: auto;
+}
+header {
+    display: flex;
+    gap: 4vw;
+    padding-bottom: 1vh;
+    padding-right: 2vw;
+    height: 10%;
+    margin: 0.5vw 0;
+    background-color: #A2DED8;
+    color: #032A56;
+    justify-content: right;
+    font-size: 1.5vw; /*18px*/
+    font-family: Arial, sans-serif;
+}
 
-	a {
-		color: inherit; /* Inherit color from parent */
-		text-decoration: none; /* Remove underline */
-	}
-	.body {
-		display:grid;
-		background-color: #032A56;
-		justify-content:center;
-		padding: 10px;
-		min-height: 95vh;
-		min-width: 95vw;
-		width: auto;
-		height: auto;
-	}
 
-	header {
-		display: flex;
-		gap: 4vw;
-		padding-bottom: 1vh;
-		padding-right: 2vw;
-		height: 10%;
-		margin: 0.5vw 0;
-		background-color: #A2DED8;
-		color: #032A56;
-		justify-content: right;
-		font-size: 1.5vw; /*18px*/
-		font-family: Arial, sans-serif;
-	}
+footer {
+    height: 5%;
+    justify-content: left;
+    text-align: left;
+    background-color: #A2DED8;
+    color: #032A56;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    font-size: 1vw;/*0.8vw; 16px*/
+    font-family: Arial, sans-serif;
+    color: #032A56;
+}
 
-	main {
-		display: grid;
-		grid-template-rows: auto 1fr auto;
-		background-color: #A2DED8;
-		min-height: 90%;
-		min-width: 45%;
-		width: auto;
-		height: auto;
-	}
+titlePage {
+    display: block;
+    font-weight: bold;
+    font-size: 4vw;/*60px;*/
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.centerContent{
+    padding-top: 5vw;
+    padding-left: 5vw;
+    padding-right: 20px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+s0 {
+    font-size: 2vw;
+    font-family: Georgia, serif;
+    color: #032A56;
+    animation-name: animateMainTEXT;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
 
-	footer {
-		height: 5%;
-		justify-content: left;
-		text-align: left;
-		background-color: #A2DED8;
-		color: #032A56;
-		padding-bottom: 1vh;
-		padding-left: 1vw;
-		font-size: 1vw;/*0.8vw; 16px*/
-		font-family: Arial, sans-serif;
-		color: #032A56;
-	}
+@keyframes animateMainTEXT{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-50px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
 
-	titlePage {
-		display: block;
-		font-weight: bold;
-		font-size: 4vw;/*60px;*/
-		font-family: Arial, sans-serif;
-		color: white;
-		text-align: center;
-	}
-	.centerContent{
-		padding-top: 20px;
-		justify-content:center;
-		text-align:center;
-	}
-	s0 {
-		/*font-weight: bold;*/
-		font-size: 2vw;
-		font-family: Georgia, serif;
-		color: #032A56;
-		text-align: center;
-		justify-content: center;
-		padding-top: 10vh;
-		animation-name: animateMainTEXT;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-iteration-count: 1; 
-	}
-	
-	@keyframes animateMainTEXT{
-		0% {
-			transform: translateX(-100px);
-			opacity: 0;
-		}
-		50% {
-			transform: translateX(-50px);
-			opacity: 0.5;
-		}
-		100% {
-			transform: translateX(0px);
-			opacity: 1;
-		}
-	}
-	
-	.imgOttawa {
-		display: flex;
-		padding-top: 7vh;
-		padding-left: 32vw;
-		width:35vw;
-		height:auto;
-		animation-name: animateIMG;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-iteration-count: 1; 
-	}
-	
-	@keyframes animateIMG{
-		0% {
-			transform: translateY(100px);
-			opacity: 0;
-		}
-		50% {
-			transform: translateY(50px);
-			opacity: 0.5;
-		}
-		100% {
-			transform: translateY(0px);
-			opacity: 1;
-		}
-	}
+.imgOttawa {
+    display: grid;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 4vh;
+    width:75vw;
+    height:auto;
+    animation-name: animateIMG;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes animateIMG{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(50px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.positionRefIMG{
+    display:none;
+    justify-items: center;
+    padding-left: 1.7vw;
+    height:auto;
+    width:6.5vw;
+    animation-name: animateLink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position:relative;
+    z-index: 4;
+}
+
+.flexIcon{
+    display: flex;
+    gap: 15vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+    position:relative;
+    z-index: 4;
+}
+
+.titleRef{
+    display: none;
+    justify-items: left;
+    font-size: 3vw;
+    color: #032A56;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    animation-name: animateLink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    position:relative;
+    z-index: 4;
+}
+
+footer {
+    padding-left:2vw;
+    justify-content: left;
+    align-items: flex-end;
+    text-align: left;
+    color: #032A56;
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    background-color: #A2DED8;
+    z-index: 3;
+}
+/*@media screen and (orientation: landscape) {
+
+}*/
+@media screen and (orientation: portrait) {
+    .positionRefIMG{
+        display:flex;
+        justify-items: center;
+        padding-left: 1.7vw;
+        height:auto;
+        width:6.5vw;
+        animation-name: animateLink;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        position:relative;
+        z-index: 4;
+    }
+
+    .flexIcon{
+        display: flex;
+        gap: 15vw;
+        padding-bottom: 10vh;
+        justify-content: center;
+        position:relative;
+        z-index: 4;
+    }
+
+    .titleRef{
+        display: flex;
+        justify-items: left;
+        font-size: 3vw;
+        color: #032A56;
+        font-family: 'Brush Script MT', cursive;
+        font-weight: bold;
+        text-decoration: none;
+        animation-name: animateLink;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        position:relative;
+        z-index: 4;
+    }
+}
+

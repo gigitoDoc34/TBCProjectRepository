@@ -94,8 +94,8 @@ s0 {
     display: grid;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 4vh;
-    width:75vw;
+    padding-left: 19vw;
+    width:50vw;
     height:auto;
     animation-name: animateIMG;
     animation-duration: 1s;
@@ -176,9 +176,9 @@ footer {
     .positionRefIMG{
         display:flex;
         justify-items: center;
-        padding-left: 1.7vw;
+        align-items: center;
         height:auto;
-        width:6.5vw;
+        width:8vh;
         animation-name: animateLink;
         animation-duration: 1s;
         animation-timing-function: linear;
@@ -189,9 +189,11 @@ footer {
 
     .flexIcon{
         display: flex;
-        gap: 15vw;
+        gap: 8vh;
+        padding-top: 5vh;
         padding-bottom: 10vh;
         justify-content: center;
+        align-items: center;
         position:relative;
         z-index: 4;
     }
@@ -199,7 +201,9 @@ footer {
     .titleRef{
         display: flex;
         justify-items: left;
+        align-items: center;
         font-size: 3vw;
+        padding-left: 1vh;
         color: #032A56;
         font-family: 'Brush Script MT', cursive;
         font-weight: bold;

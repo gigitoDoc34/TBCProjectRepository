@@ -429,9 +429,9 @@
 	.positionRefIMG{
 		display:flex;
 		justify-items: center;
-		padding-left: 1.7vw;
+		align-items: center;
 		height:auto;
-		width:6.5vw;
+		width:8vh;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -442,10 +442,11 @@
 
 	.flexIcon{
 		display: flex;
-		gap: 15vw;
+		gap: 8vh;
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;
+		align-items: center;
 		position:relative;
 		z-index: 4;
 	}
@@ -453,7 +454,9 @@
 	.titleRef{
 		display: flex;
 		justify-items: left;
+		align-items: center;
 		font-size: 3vw;
+		padding-left: 0.5vh;
 		color: #032A56;
 		font-family: 'Brush Script MT', cursive;
 		font-weight: bold;

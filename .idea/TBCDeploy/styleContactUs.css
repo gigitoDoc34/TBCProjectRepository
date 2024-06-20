@@ -72,7 +72,7 @@
 	}
 	s0 {
 		/*font-weight: bold;*/
-		font-size: 3vw;
+		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		text-align: center;
@@ -99,7 +99,7 @@
 	}
 	s2 {
 		/*font-weight: bold;*/
-		font-size: 3vw;
+		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		text-align: center;
@@ -123,7 +123,7 @@
 	}
 	s4 {
 		/*font-weight: bold;*/
-		font-size: 3vw;
+		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		text-align: center;
@@ -188,7 +188,7 @@
 
 	.resizeImg1{
 		width:auto;
-		height:15vh;
+		height:10vw;
 		animation-name: animateContacts1;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -196,7 +196,7 @@
 	}
 	.resizeImg2{
 		width:auto;
-		height:15vh;
+		height:10vw;
 		animation-name: animateContacts2;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -384,7 +384,7 @@
 	}
 	s2 {
 		/*font-weight: bold;*/
-		font-size: 3vw;
+		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		text-align: center;
@@ -409,7 +409,7 @@
 	}
 	s4 {
 		/*font-weight: bold;*/
-		font-size: 3vw;
+		font-size: 2vw;
 		font-family: Georgia, serif;
 		color: #032A56;
 		text-align: center;
@@ -474,7 +474,7 @@
 
 	.resizeImg1{
 		width:auto;
-		height:15vh;
+		height:10vh;
 		animation-name: animateContacts1;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -482,7 +482,7 @@
 	}
 	.resizeImg2{
 		width:auto;
-		height:15vh;
+		height:10vh;
 		animation-name: animateContacts2;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -522,9 +522,9 @@
 	.positionRefIMG{
 		display:flex;
 		justify-items: center;
-		padding-left: 1.7vw;
+		align-items: center;
 		height:auto;
-		width:6.5vw;
+		width:8vh;
 		animation-name: animateLink;
 		animation-duration: 1s;
 		animation-timing-function: linear;
@@ -535,10 +535,11 @@
 
 	.flexIcon{
 		display: flex;
-		gap: 15vw;
+		gap: 8vh;
 		padding-top: 5vh;
 		padding-bottom: 10vh;
 		justify-content: center;
+		align-items: center;
 		position:relative;
 		z-index: 4;
 	}
@@ -546,7 +547,9 @@
 	.titleRef{
 		display: flex;
 		justify-items: left;
+		align-items: center;
 		font-size: 3vw;
+		padding-left: 0.5vh;
 		color: #032A56;
 		font-family: 'Brush Script MT', cursive;
 		font-weight: bold;
